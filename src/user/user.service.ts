@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dtos/createUser.dto';
-import { UserEntity } from './interfaces/user.entity';
+import { UserEntity } from './entities/user.entity';
 import { hash } from 'bcrypt';
 import { promises } from 'dns';
 import { InjectRepository } from '@nestjs/typeorm';
